@@ -1,5 +1,4 @@
 # Howler-Arcade-Controller-Firmware
-Howler Arcade Controller V0.202 Release
-This is the release of the Howler Arcade Controller V0.202 FW for the Howler Open Source Arcade Controller.
+To install firmware use Flip to flash the debug/.hex file
+Use the .exe and .dll files to control the board(s)
 
-visit www.wolfwaretech.com for more information
