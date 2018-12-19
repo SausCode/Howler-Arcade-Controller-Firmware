@@ -318,7 +318,7 @@ enum adc_reference {
 	/** Internal 1 V from bandgap reference. */
 	ADC_REF_BANDGAP  = ADC_REFSEL_INT1V_gc,
 	/** VCC divided by 1.6. */
-	ADC_REF_VCC      = ADC_REFSEL_VCC_gc,
+	ADC_REF_VCC      =  ADC_REFSEL_INTVCC_gc,
 #if !XMEGA_B3 || defined(__DOXYGEN__)
 	/** External reference on AREFA pin. */
 	ADC_REF_AREFA    = ADC_REFSEL_AREFA_gc,
@@ -327,7 +327,7 @@ enum adc_reference {
 	ADC_REF_AREFB    = ADC_REFSEL_AREFB_gc,
 #if CONFIG_ADC_VERSION == 2
 	/** VCC divided by 2. */
-	ADC_REF_VCCDIV2 = ADC_REFSEL_VCCDIV2_gc,
+	ADC_REF_VCCDIV2 =  ADC_REFSEL_INTVCC2_gc,
 #endif
 };
 
